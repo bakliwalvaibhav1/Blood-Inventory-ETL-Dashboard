@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Mock data generator for the Blood Inventory ETL & Dashboard project.
 

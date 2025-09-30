@@ -25,14 +25,13 @@ Key features:
 
 ```
 Blood Inventory ETL & Dashboard/
-│
+├─ data/                 # Folder for generated CSV files
 ├─ src/
 │  ├─ data_gen.py        # Generates mock blood donation and request data
 │  ├─ etl_loader.py      # Cleans and loads data into SQLite
-│  ├─ dashboard.py       # Streamlit dashboard to visualize the data
-│  └─ data/              # Folder for generated CSV files
-│
+│  └─ dashboard.py       # Streamlit dashboard to visualize the data
 ├─ screenshot.png        # Dashboard screenshot
+├─ requirements.txt      # Python dependencies
 └─ README.md
 ```
 
